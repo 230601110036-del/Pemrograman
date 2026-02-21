@@ -76,13 +76,14 @@ li {
     margin-right: 40px;
 }
 .contents-item img {
-    width: 150px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-    transition: 0.3s ease;
+    width: 180px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
 }
 .contents-item img:hover {
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.35);
-    transform: translateY(-5px);  
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
 }
 .contents-item p {
     font-size: 24px;
