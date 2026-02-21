@@ -87,10 +87,15 @@ input, textarea {
 }
 .contact-submit {
     background: linear-gradient(
-        to right,
-        rgb(135, 146, 151),
-        rgb(160, 190, 205),
-        rgb(185, 220, 234)
+        90deg,
+        rgb(123, 67, 151),
+        rgb(63, 94, 251)
     );
     color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
