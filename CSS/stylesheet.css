@@ -55,13 +55,21 @@ li {
 }
 .copy-container h1 {
     font-size: 140px;
-    color: rgb(107, 152, 168);
+    font-weight: bold;
+    background: linear-gradient(
+        to bottom,
+        rgb(160, 200, 215),
+        rgb(107, 152, 168),
+        rgb(70, 105, 120)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     text-shadow:
-        1px 1px 0 rgb(57, 113, 134),
-        2px 2px 0 rgb(80, 120, 135),
-        3px 3px 0 rgb(61, 127, 155),
-        4px 4px 0 rgb(46, 82, 98),
-        5px 5px 10px rgba(0,0,0,0.4);
+        1px 1px 0 rgb(60, 90, 105),
+        2px 2px 0 rgb(60, 90, 105),
+        3px 3px 0 rgb(60, 90, 105),
+        4px 4px 10px rgba(0,0,0,0.4);
 }
 .copy-container h2 {
     font-size: 60px;
